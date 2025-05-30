@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Space Mono", monospace;
+    -webkit-font-smoothing: antialiased;
 }
 
 :root {
@@ -18,6 +20,23 @@ body {
     background-color: var(--almost-white);
 }
 
-header {
-    
+.header-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.header-mobile button {
+    border: none;
+    background: none;
+}
+
+.primeira-secao {
+    margin-bottom: 4rem;
+}
+
+.primeira-secao img {
+    width: 100%;
+    margin-bottom: 1.5rem;
 }
